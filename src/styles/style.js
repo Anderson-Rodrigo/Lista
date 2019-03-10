@@ -13,10 +13,9 @@ const styles = StyleSheet.create({
     },
     botao: {
         margin: 10,
-        padding: 5,
+        padding: 10,
         margin: 5,
-        justifyContent: 'center',
-        marginBottom: 2
+        flex: 1
     },
     textHeader: {
         color: '#FFF'
@@ -41,7 +40,7 @@ const styles = StyleSheet.create({
     inputView: {
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         padding: 5
     }
 });
